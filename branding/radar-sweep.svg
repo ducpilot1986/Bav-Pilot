@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Radar sweep">
+<style>@keyframes spin{to{transform:rotate(360deg)}}#sw{transform-origin:200px 200px;animation:spin 2.4s linear infinite}@media(prefers-reduced-motion:reduce){#sw{animation:none}}</style>
+<defs><linearGradient id="fade" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#22C8F0" stop-opacity=".55"/><stop offset="1" stop-color="#22C8F0" stop-opacity="0"/></linearGradient></defs>
+<g id="sw"><path d="M200 200 L200 20 A180 180 0 0 0 72.7 72.7 Z" fill="url(#fade)"/><line x1="200" y1="200" x2="200" y2="20" stroke="#9BEBFF" stroke-width="2"/></g>
+</svg>

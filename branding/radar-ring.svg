@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Radar ring">
+<style>@keyframes orbit{to{transform:rotate(360deg)}}@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
+#orbit{transform-origin:200px 200px;animation:orbit 3.2s linear infinite}#ring{animation:glow 2.4s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){#orbit,#ring{animation:none}}</style>
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs>
+<g id="ring" fill="none" stroke="#22C8F0">
+<circle cx="200" cy="200" r="180" stroke-width="2.4" stroke-opacity=".85"/>
+<circle cx="200" cy="200" r="180" stroke-width="7" stroke-opacity=".25" filter="url(#g)"/>
+<circle cx="200" cy="200" r="120" stroke-width="1" stroke-opacity=".3"/>
+<circle cx="200" cy="200" r="60" stroke-width="1" stroke-opacity=".25"/>
+<path d="M200 20V380M20 200H380" stroke-width="1" stroke-opacity=".25"/>
+<circle cx="200" cy="200" r="168" stroke-width="5" stroke-opacity=".7" stroke-dasharray="1.5 15.1"/>
+</g>
+<g id="orbit"><circle cx="200" cy="20" r="9" fill="#7FE7FF" filter="url(#g)"/><circle cx="200" cy="20" r="3.5" fill="#FFFFFF"/></g>
+</svg>
